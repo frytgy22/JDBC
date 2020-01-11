@@ -1,0 +1,61 @@
+body {
+    background: url("/static/images/5.jpg") no-repeat center center fixed;
+    background-size: cover;
+    font-family: "Roboto", sans-serif;
+}
+
+aside {
+    width: 100%;
+    margin-top: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#logoSection {
+    float: left;
+    margin-left: 10px;
+}
+
+#coinsSection {
+    float: right;
+    margin-right: 15px;
+}
+
+span {
+    top: -15px;
+    position: relative;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#game {
+    margin: 100px auto 0;
+    display: block;
+}
+
+input, #hw {
+    width: 150px;
+    background: linear-gradient(rgb(24, 63, 42), rgb(22, 160, 93));
+    box-shadow: inset rgba(255, 255, 255, .6) 0 .3em .3em,
+    inset rgba(0, 0, 0, .2) 0 -.1em .3em,
+    rgb(22, 160, 93) 0 0 0,
+    rgba(0, 0, 0, .2) 0 .5em 5px;
+    font-size: 16px;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 10px;
+    border: none;
+    padding: 10px;
+}
+
+#submit {
+    bottom: 50px;
+}
+
+#hw {
+    left: 0;
+    background: gray;
+}

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+    <context-param>
+        <param-name>db.username</param-name>
+        <param-value>java2019</param-value>
+    </context-param>
+
+    <context-param>
+        <param-name>db.password</param-name>
+        <param-value>qazwsx123</param-value>
+    </context-param>
+
+    <context-param>
+        <param-name>db.url</param-name>
+        <param-value>jdbc:mysql://db4free.net/java2019?serverTimezone=Europe/Kiev&amp;characterEncoding=utf8
+        </param-value>
+    </context-param>
+
+
+    <error-page>
+        <exception-type>javax.servlet.ServletException</exception-type>
+        <location>/WEB-INF/jsp/error.jsp</location>
+    </error-page>
+
+    <error-page>
+        <exception-type>java.sql.SQLException</exception-type>
+        <location>/WEB-INF/jsp/error.jsp</location>
+    </error-page>
+
+    <error-page>
+        <error-code>404</error-code>
+        <location>/WEB-INF/jsp/error.jsp</location>
+    </error-page>
+
+
+    <servlet-mapping>
+        <servlet-name>default</servlet-name>
+        <url-pattern>/static/*</url-pattern>
+    </servlet-mapping>
+
+    <jsp-config>
+        <jsp-property-group>
+            <url-pattern>/WEB-INF/jsp/game.jsp</url-pattern>
+            <el-ignored>false</el-ignored>
+        </jsp-property-group>
+    </jsp-config>
+
+</web-app>
