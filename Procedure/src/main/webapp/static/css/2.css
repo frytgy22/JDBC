@@ -1,0 +1,10 @@
+body{
+    background: cornsilk;
+}
+table{
+    border-collapse: collapse;
+    border: 1px double black;
+}
+th,td{
+    border: 1px double black;
+}
