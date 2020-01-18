@@ -2,7 +2,6 @@
 <html>
 <head>
     <title>Authorization</title>
-    <title>Registration</title>
     <link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/static/css/registration.css">
     <link rel="shortcut icon" href="<%=request.getContextPath()%>/static/images/snake.png" type="image/png">
     <script src="https://code.jquery.com/jquery-2.1.0.js"></script>

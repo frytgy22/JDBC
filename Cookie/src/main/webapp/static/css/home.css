@@ -1,0 +1,114 @@
+body {
+    background: #d9d9d9;
+}
+
+form {
+    padding-top: 40px;
+    width: 415px;
+    height: 220px;
+    top: -135px;
+    position: relative;
+}
+
+#wrap {
+    width: 415px;
+    height: 530px;
+    background: linear-gradient(to top, rgb(255, 255, 255) 72%, rgb(217, 217, 217) 28%);
+}
+
+#up {
+    width: 415px;
+    height: 315px;
+    padding: 0;
+    margin: 0;
+}
+
+input {
+    display: flex;
+    width: 313px;
+    height: 40px;
+    position: relative;
+    margin: auto auto 10px;
+    font-size: 16px;
+}
+
+input[type=submit] {
+    width: 315px;
+    height: 40px;
+    background: #7cbf46;
+    margin-top: 40px;
+    margin-left: 49px;
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+}
+
+#container {
+    width: 329px;
+    margin: auto;
+}
+
+.box {
+    width: 415px;
+    background: #d9d9d9;
+    margin: 40px auto;
+}
+
+.effect5 {
+    position: relative;
+}
+
+.effect5:before, .effect5:after {
+    z-index: -1;
+    position: absolute;
+    content: "";
+    bottom: 25px;
+    left: 10px;
+    width: 50%;
+    top: 80%;
+    max-width: 415px;
+    background: #777;
+    -webkit-box-shadow: 0 35px 20px #777;
+    -moz-box-shadow: 0 35px 20px #777;
+    box-shadow: 0 35px 20px #777;
+    -webkit-transform: rotate(-8deg);
+    -moz-transform: rotate(-8deg);
+    -o-transform: rotate(-8deg);
+    -ms-transform: rotate(-8deg);
+    transform: rotate(-8deg);
+}
+
+.effect5:after {
+    -webkit-transform: rotate(8deg);
+    -moz-transform: rotate(8deg);
+    -o-transform: rotate(8deg);
+    -ms-transform: rotate(8deg);
+    transform: rotate(8deg);
+    right: 10px;
+    left: auto;
+}
+
+.button25 {
+    text-shadow: 0 -1px 1px #777;
+    color: #fff;
+    outline: none;
+    border: 2px solid #7cbf46;
+    border-radius: 5px;
+    box-shadow: 0 0 0 60px rgba(0, 0, 0, 0) inset, .1em .1em .2em #3b7551;
+}
+
+.button25:active {
+    top: .1em;
+    left: .1em;
+    box-shadow: 0 0 0 60px rgba(0, 0, 0, .05) inset;
+}
+#infoERROR {
+    width: 415px;
+    background: rgba(245, 62, 60, 0.29);
+    border: 2px solid #f53e3c;
+    margin: auto;
+    text-align: center;
+    font-size: 16px;
+    opacity: 0;
+    display: none;
+}
