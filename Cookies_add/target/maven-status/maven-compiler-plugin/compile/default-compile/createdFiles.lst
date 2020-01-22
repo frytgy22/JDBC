@@ -1,0 +1,5 @@
+org/lebedeva/servlet/EditCookieServlet.class
+org/lebedeva/servlet/DeleteCookieServlet.class
+org/lebedeva/servlet/AddCookieServlet.class
+org/lebedeva/servlet/HomeServlet.class
+org/lebedeva/Check.class
